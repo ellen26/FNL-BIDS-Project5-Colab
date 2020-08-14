@@ -19,6 +19,8 @@ The link for that page will change to: https://colab.research.google.com/github/
 
 When saving the files, here I download the ipynb from Google Colab and , because here I am using other people's Github.
 However, when linking with code from my own Github, I can simply make changes from within Colab and save the file by choosing File ---> Save a Copy to Github and follow the resulting prompts.
+OR:
+using !git config - global user.email"You@Your.com" method referenced to https://medium.com/@navan0/how-to-push-files-into-github-from-google-colab-379fd0077aa8
 
 Performance: 
 Overall, Google Colab performs really well in using and linking Github resources. Even though for some graphs, their size need to be resize. It does not need to rerun the code to see the outputs, but if you need to make changes to code you need to download every data and packages included in original Github's notebook. 
