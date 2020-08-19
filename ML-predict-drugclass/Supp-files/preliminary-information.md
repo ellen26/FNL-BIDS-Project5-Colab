@@ -1,0 +1,6 @@
+## Preliminary Information
+
+Latest version of this workshop will be available from the following GitHub site,
+https://github.com/ravichas/ML-predict-drugclass.   
+
+This workshop is a primer on how to explore small (drug-like) molecule chemical structures and generate descriptors for Machine-learning. This effort is part of the knowledge/capabilities-transfer for the NCI-DOE Pilot projects; details are shown [here](https://datascience.cancer.gov/collaborations/joint-design-advanced-computing). We will be covering the results of Pilot projects in separate workshop(s). For this workshop, I will use the procedures, tools (python rdkit libraries) and results from the [AMPL](https://arxiv.org/abs/1911.05211) and other Pilot projects to guide us through this effort. Towards this goal, we will follow the **AMPL** feature steps, Data Curation (Data; SMILES), featurization (fingerprints) and analysis. OpenSource software like OpenBabel are used for generating molecular features. Taking into account the avilability of the number of descriptors and user-friendliness, we will use Python based Open-Source Cheminformatics Software, **rdkit**, and **mordred** for generating molecular properties/features. For machine-learning, classification modeling and analysis, we will use SciKit-learn Python library. 
