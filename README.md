@@ -5,32 +5,27 @@ Goal:
 1: Understand how to connect Github (open source) to Google Colab
 2: Compare usage between two platforms
 
-Two Github provided by professor: 
-https://github.com/ravichas/ML-TC1 (Machine Learning)
+Github provided by professor: 
 https://github.com/ravichas/ML-predict-drugclass (Deep Learning)
 
-Advantage 1: 
-Using Google Colab, it only takes one step to link with Github. 
-For example: 
-Original Github notebook link: https://github.com/ravichas/ML-predict-drugclass/blob/master/predict-drugclass.ipynb
-Change to Colab link:  https://colab.research.google.com/github/ravichas/ML-predict-drugclass/blob/master/predict-drugclass.ipynb
-Create a text box and put in the colab link into it.
-Then when you click on it, it will show as ML.ipynb in this repo. 
-The link for that page will change to: https://colab.research.google.com/github/ravichas/ML-predict-drugclass/blob/master/predict-drugclass.ipynb#scrollTo=Sj8qV5neKSd1
+Here is Colab version after installing needed packages: 
+https://colab.research.google.com/github/ellen26/FNL-BIDS-Project5-Colab/blob/master/ML-predict-drugclass/predict-drugclass-colab.ipynb#scrollTo=tmFOWhjB9_aK
 
-Advantage 2:
-When saving the files, here I download the ipynb from Google Colab and , because here I am using other people's Github.
-However, when linking with code from my own Github, I can simply make changes from within Colab and save the file by choosing File ---> Save a Copy to Github and follow the resulting prompts.
-OR:
-using !git config - global user.email"You@Your.com" method referenced to https://medium.com/@navan0/how-to-push-files-into-github-from-google-colab-379fd0077aa8
+Pros:
+1.	Directly show the output for Github notebook
+2.	High speed for installing packages and running codes
+3.	Easy to link with Github account
+4.	Large RAM and disk space
+5.	Reader could run and edit the code directly 
+6.	Free
+7.	Many resources and tutorials online
 
-Advantage three:
-Google Colab can directly show the output for Github notebook, unlike other platforms.
+Cons:
+1.	Need to use personal Gmail rather than Edu Gmail 
+2.	Need to refresh and save file often when multiple people working on same Colab file
 
-Performance:
-Overall, Google Colab performs really well in using and linking Github resources. Even though for some graphs, their size need to be resize. It does not need to rerun the code to see the outputs, but if you need to make changes to code you need to download every data and packages included in original Github's notebook. 
+Related Reference: 
+https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb
+https://www.youtube.com/watch?v=ERvUf_lNopo&t=78s
 
-Next step:
-Using the configuration file provided, test how many and how long does it take to install all needed packages, via changing environment.
 
-Related reference: https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb
